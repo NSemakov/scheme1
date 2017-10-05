@@ -98,7 +98,7 @@ function colorSeat(seatIds)
 function imageIsLoaded() 
 {
     var messageToPost = {
-        'id': 'ready'
+        'Id': 'ready'
     };
     window.webkit.messageHandlers.iosListener.postMessage(messageToPost);
 }
