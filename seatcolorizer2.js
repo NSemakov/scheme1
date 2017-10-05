@@ -94,3 +94,11 @@ function colorSeat(seatIds)
 
     }
 }
+
+function imageIsLoaded() 
+{
+    var messageToPost = {
+        'id': 'ready'
+    };
+    window.webkit.messageHandlers.iosListener.postMessage(messageToPost);
+}
